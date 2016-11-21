@@ -1,0 +1,194 @@
+#name {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 100px;
+    color: #ffffff;
+    padding: 5px;
+    height: 50px;
+    width:250px;
+    top: 0px;
+    margin-top: 0px;
+    position:fixed;
+}
+#left,#middle {
+	float:right;
+	font-family: 'Georgia', Times, 'Times New Roman',serif;
+	border-right: 1px solid #4aaaa5;
+	color:#4aaaa5;
+	padding:5px;
+}
+#right{
+	float:right;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin-right:50px;
+	color:#4aaaa5;
+	padding:5px;
+}
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+img{
+	float:left;
+	padding:10px;
+}
+aside {
+    height: 200px;
+    padding:3px;
+    background: #fff;
+    border: 1px solid #eee;
+    right:40px;
+    top:30px;
+    color: #777;
+    position: absolute;
+    border: 1px solid #777;
+}
+header{
+	width:1020px;
+	height:52px;
+	border-bottom: solid #777 1px;
+}
+body{
+	width:1020px;
+	height:500px;
+}
+div{
+	margin-left: 100px;
+	float:left;
+	margin-right: 20px;
+	padding:10px;
+	height: 428px;
+	border:solid 1px;
+	background-color: #ffffff;
+}
+section{
+    padding: 0px;
+    height: 450px;
+    clear: both;
+    width: 695px;
+    margin-top: 28px;
+}
+main{
+	width:1020px;
+	height:500px;
+	background: url(../images/cheap_diagonal_fabric.png);
+	position:fixed;
+}	
+h1 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color:#777;
+}
+footer{
+	width: 1020px;
+    height: 40px;
+    border-top: solid 10px #777;
+    background-color: #666;
+    text-align:center;
+    color:#ffffff;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    position:absolute;
+}
+
+@media only screen and (max-width: 960px){
+	#name{
+		position:fixed;
+	}
+	main{
+		position:fixed;
+	}
+	div{
+		width:500px;
+	}
+	p{
+		font-size:13px;
+	}
+	aside{
+		right:100px;
+	}
+	footer{
+		width:960px;
+	    position:absolute;
+	}
+
+	header{
+		width:960px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#name{
+		position:fixed;
+	}
+	main{
+		position:fixed;
+	}
+	div{
+		width:450px;
+		height:300px;
+		margin-left:50px;
+	}
+	aside{
+		position:absolute;
+		left:0px;
+		top:365px;
+		width:464px;
+		margin-left:50px;
+		height:100px;
+	}
+	header{
+		width:768px;
+	}
+	footer{
+		width:768px;
+		position:absolute;
+	}
+	section{
+		display:inline-block;
+	}
+	p{
+		font-size:10px;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	header{
+		position:static;
+		width:640px;
+	}
+	main{
+		position:fixed;
+	}
+	
+	aside{
+		position:absolute;
+		bottom:5px;
+	}
+	#github{
+		position:absolute;
+		bottom:0px;
+	}
+	#linkedin{
+		position:absolute;
+		bottom:0px;
+		left:75px;
+	}
+	#stacked{
+		position:absolute;
+		bottom:0px;
+		left:150px;
+	}
+	#connect{
+		position:relative;
+		bottom:20px;
+	}
+
+	hr.connectline{
+		position:relative;
+		bottom:30px;
+	}
+
+	footer{
+		width:640px;
+		position:absolute;
+
+	}
+}

@@ -1,0 +1,114 @@
+#name {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: 100px;
+    color: #ffffff;
+    padding: 5px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+}
+
+#left,#middle {
+	float: right;
+	font-family: 'Georgia', Times, 'Times New Roman',serif;
+	border-right: 1px solid #4aaaa5;
+	color:#4aaaa5;
+	margin-top: 18px;
+	padding:5px;
+}
+
+#right{
+	float:right;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	margin-right:50px;
+	color:#4aaaa5;
+	margin-top: 18px;
+	padding:5px;
+}
+
+main{
+	width:960px;
+	height:500px;
+	background: url(../images/cheap_diagonal_fabric.png);
+}	
+
+
+div{
+	margin-left:100px;
+	float:left;
+	padding:10px;
+	height:450px;
+	border: solid 1px;
+	background-color:#ffffff;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color:#777;
+}
+
+#textboxid{
+	height:20px;
+	width:500px;
+}
+
+#textboxid2{
+	height:200px;
+	width:500px;
+}
+header{
+	height:52px;
+	width:960px;
+	border-bottom: solid 1px #777;
+}
+
+aside {
+    height: 200px;
+    background: #fff;
+    border: 1px solid #eee;
+    right: 250px;
+    bottom: 360px;
+    color: #777;
+    position: fixed;
+    border: 1px solid #777;
+    width:229px;
+}
+section{
+    padding: 0px;
+    height: 450px;
+    clear: both;
+    width: 695px;
+    position: fixed;
+    margin-top: 28px;
+}
+
+h1 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color:#777;
+	padding:10px;
+	border-bottom: solid 1px #777;
+}
+
+#github, #linkedin, #stacked{
+	margin-left:10px;
+	margin-right:10px;
+	height:50px;
+	width:50px;
+}
+
+footer{
+	width: 960px;
+    height: 40px;
+    position: relative;
+    border-top: solid 10px #777;
+    background-color: #666;
+    text-align:center;
+    color:#ffffff;
+    font-family:'Georgia', Times, 'Times New Roman', serif;;
+}
+
+#submit{
+	background-color:#777;
+	border:1px solid black;
+	padding:12px;
+	color:#fff;
+}
