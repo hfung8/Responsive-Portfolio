@@ -65,12 +65,12 @@ aside {
     height: 200px;
     background: #fff;
     border: 1px solid #eee;
-    right: 250px;
-    bottom: 360px;
     color: #777;
-    position: fixed;
+    position: absolute;
+    left:700px;
     border: 1px solid #777;
     width:229px;
+    top:88px;
 }
 section{
     padding: 0px;
@@ -81,18 +81,17 @@ section{
     margin-top: 28px;
 }
 
-h1 {
+h1#contact {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color:#777;
 	padding:10px;
 	border-bottom: solid 1px #777;
 }
 
-#github, #linkedin, #stacked{
-	margin-left:10px;
-	margin-right:10px;
-	height:50px;
-	width:50px;
+h1#connect{
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color:#777;
+	padding:10px;
 }
 
 footer{
@@ -111,4 +110,126 @@ footer{
 	border:1px solid black;
 	padding:12px;
 	color:#fff;
+}
+@media only screen and (max-width: 980px){
+	div{
+		width:350px;
+	}
+	#textboxid{
+		width:350px;
+	}
+	#textboxid2{
+		width:350px;
+	}
+	aside{
+		left:500px;
+	}
+	footer{
+		width:755px;
+		position:relative;
+	}
+	header{
+		width:755px;
+	}
+	main{
+		width:755px;
+	}
+}
+	@media only screen and (max-width: 768px){
+	header{
+		width:730px;
+	}
+	main{
+		width:730px;
+	}
+	footer{
+		width:730px;
+	}
+	aside{
+		position: absolute;
+		left:8px;
+		top:409px;
+		width:700px;
+		height:140px;
+		margin-left:10px;
+	}
+	div{
+		position: absolute;
+		height:285px;
+		left:10px;
+		margin:0px;
+		width:680px;
+	}
+	h1#connect{
+		padding:0px;
+	}
+	#textboxid2{
+		width:660px;
+		height:40px;
+	}
+}
+	@media only screen and (max-width: 640px){
+	header{
+		position:static;
+		width:640px;
+		height:30px;
+		margin:0px;
+	}
+	#name{
+		width:640px;
+		margin:0px;
+		text-align:center;
+		padding:0px;
+		position:fixed;
+	}
+	#left{
+	    position: relative;
+	    right: 410px;
+	    bottom: 15px;
+	    color: #777;
+	    width: 212px;
+	    text-align: center;
+	    margin: 0px;
+	}
+	#middle{
+	    position: relative;
+	    top: 35px;
+	    width: 210px;  
+	    color: #777;
+	    text-align: center;
+	}
+	#right{
+	    position: relative;
+	    color: #777;
+	    top: 35px;
+	    width: 210px;
+	    text-align: center;
+	    margin-right: 0px;
+		}
+	main{
+		position:relative;
+		top:70px;
+	}
+	div{
+		height:250px;
+		top:50px;
+		width:550px;
+		margin-left:5px;
+	}
+	h1#contact{
+		padding:0px;
+	}
+	#textboxid2{
+		width:550px;
+	}
+	aside{
+		position:absolute;
+		width:570px;
+		margin-left:0px;
+		top:290px;
+	}
+	footer{
+		width:640px;
+	}
+
 }

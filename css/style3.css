@@ -66,10 +66,10 @@ aside {
     height: 200px;
     background: #fff;
     border: 1px solid #eee;
-    right: 255px;
-    bottom: 360px;
+    left:710px;
+   	top:90px;
     color: #777;
-    position: fixed;
+    position: absolute;
     border: 1px solid #777;
     width:229px;
 }
@@ -82,11 +82,16 @@ section{
     margin-top: 28px;
 }
 
-h1 {
+h1#portfolio{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	color:#777;
 	padding:10px;
 	border-bottom: solid 1px #777;
+}
+h1#connect {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color:#777;
+	padding:10px;
 }
 
 #github, #linkedin, #stacked{
@@ -105,9 +110,6 @@ footer{
     text-align:center;
     color:#ffffff;
     font-family:'Georgia', Times, 'Times New Roman', serif;
-}
-
-section{
 }
 
 h5{
@@ -131,4 +133,24 @@ h5{
 	margin-right:10px;
 	height:50px;
 	width:50px;
+}
+@media only screen and (max-width: 980px){
+	footer{
+	width:755px;
+	position:relative;
+	}
+	header{
+		width:755px;
+	}
+	main{
+		width:755px;
+	}
+	aside{
+		position:absolute;
+		left:500px;
+	}
+	div.main{
+	width:350px;
+	height:450px;
+	}
 }
